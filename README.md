@@ -96,7 +96,7 @@ function isOdd(number) {
     throw new TypeError("number is not a number");
   }
 
-  return number % 2 !== 0;
+  return number % 2 === 1;
 }
 ```
 
