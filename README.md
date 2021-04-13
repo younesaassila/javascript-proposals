@@ -140,3 +140,5 @@ const pets = [
 
 pets.groupBy((pet) => pet.type);
 ```
+
+## `Array.prototype.shuffle`
