@@ -114,7 +114,6 @@ Number.isOdd(69); // true
 ```js
 function groupBy(keyGetter) {
   const map = new Map();
-  // this refers to the array
   this.forEach((item) => {
     const key = keyGetter(item);
     const collection = map.get(key);
