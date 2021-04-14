@@ -1,6 +1,6 @@
 # My JavaScript Proposals
 
-A non-exhaustive list of features I would like to see added to JavaScript.
+A list of features I would love to see added to JavaScript.
 
 ## `Math.random(min, max)`
 
