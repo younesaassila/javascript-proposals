@@ -107,7 +107,7 @@ Number.isOdd(42); // false
 Number.isOdd(69); // true
 ```
 
-## `Array.prototype.groupBy`
+## `Array.prototype.groupBy(fn)`
 
 **Polyfill:**
 
@@ -141,4 +141,4 @@ const pets = [
 pets.groupBy((pet) => pet.type);
 ```
 
-## `Array.prototype.shuffle`
+## `Array.prototype.shuffle()`
