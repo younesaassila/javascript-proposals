@@ -1,6 +1,6 @@
-# My JavaScript Proposals
+# ECMAScript Proposals
 
-A list of features I would love to see added to JavaScript.
+My proposals to improve the ECMAScript programming language.
 
 ## `Math.random(min, max)`
 
@@ -28,6 +28,13 @@ function random(min, max) {
 
   return Random() * (max - min) + min;
 }
+```
+
+**Example:**
+
+```js
+const price = Math.random(4.5, 10);
+console.log(price);
 ```
 
 ## `Math.randomInt(min, max)`
@@ -61,9 +68,16 @@ function randomInt(min, max) {
 }
 ```
 
+**Example:**
+
+```js
+const age = Math.randomInt(18, 35);
+console.log(age);
+```
+
 ## `Number.isEven(number)`
 
-**Reason:** This method would provide a more understandable syntax for beginners and would improve code quality overall.
+**Reasoning:** This method would provide a more understandable syntax for beginners and would improve code quality overall.
 
 **Polyfill:**
 
@@ -86,7 +100,7 @@ Number.isEven(69); // false
 
 ## `Number.isOdd(number)`
 
-**Reason:** This method would provide a more understandable syntax for beginners and would improve code quality overall.
+**Reasoning:** This method would provide a more understandable syntax for beginners and would improve code quality overall.
 
 **Polyfill:**
 
